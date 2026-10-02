@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Getting Started with Artificial Intelligence",
+        "excerpt": "A beginner-friendly look at how artificial intelligence is changing the way software applications are designed and built.",
+        "category": "AI & ML",
+        "author": "Alina Washim",
+        "date": "October 2, 2026",
+        "readTime": "5 min read"
+    },
+    {
+        "id": 2,
+        "title": "Why Full-Stack Development Matters",
+        "excerpt": "Understanding how frontend, backend, databases, and APIs work together to create complete web applications.",
+        "category": "Web Development",
+        "author": "Alina Washim",
+        "date": "September 28, 2026",
+        "readTime": "6 min read"
+    },
+    {
+        "id": 3,
+        "title": "Computer Vision in Real-World Applications",
+        "excerpt": "Exploring how computer vision can be used for crowd monitoring, object detection, safety systems, and automation.",
+        "category": "Computer Vision",
+        "author": "Alina Washim",
+        "date": "September 21, 2026",
+        "readTime": "7 min read"
+    },
+    {
+        "id": 4,
+        "title": "Understanding React Components",
+        "excerpt": "Learn why reusable components are one of the most important ideas behind building maintainable React applications.",
+        "category": "React",
+        "author": "Alina Washim",
+        "date": "September 15, 2026",
+        "readTime": "4 min read"
+    },
+    {
+        "id": 5,
+        "title": "Building Smarter IoT Systems",
+        "excerpt": "How sensors, automation, and software logic can work together to create intelligent real-world systems.",
+        "category": "IoT",
+        "author": "Alina Washim",
+        "date": "September 8, 2026",
+        "readTime": "6 min read"
+    },
+    {
+        "id": 6,
+        "title": "From Idea to Hackathon Project",
+        "excerpt": "A practical look at turning an initial idea into a working prototype under strict time constraints.",
+        "category": "Development",
+        "author": "Alina Washim",
+        "date": "August 30, 2026",
+        "readTime": "5 min read"
+    },
+    {
+        "id": 7,
+        "title": "Python for AI and Software Development",
+        "excerpt": "Why Python is useful across machine learning, automation, backend development, data analysis, and computer vision.",
+        "category": "Python",
+        "author": "Alina Washim",
+        "date": "August 22, 2026",
+        "readTime": "6 min read"
+    },
+    {
+        "id": 8,
+        "title": "The Role of APIs in Modern Applications",
+        "excerpt": "A simple introduction to APIs and how applications communicate with external services and backend systems.",
+        "category": "Web Development",
+        "author": "Alina Washim",
+        "date": "August 14, 2026",
+        "readTime": "5 min read"
+    }
+]

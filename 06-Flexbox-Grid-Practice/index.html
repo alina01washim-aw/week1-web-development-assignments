@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Flexbox & Grid Practice</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <a href="#" class="logo">
+                Layout<span>.</span>
+            </a>
+
+            <nav>
+                <a href="#flexbox">Flexbox</a>
+                <a href="#grid">Grid</a>
+                <a href="#dashboard">Dashboard</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="container">
+
+                <p class="label">
+                    CSS LAYOUT PRACTICE
+                </p>
+
+                <h1>
+                    Building responsive layouts with
+                    <span>Flexbox & Grid.</span>
+                </h1>
+
+                <p class="hero-text">
+                    A practical demonstration of modern CSS layout
+                    techniques using Flexbox and CSS Grid.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FLEXBOX -->
+
+        <section id="flexbox" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="label">
+                        01 — FLEXBOX
+                    </p>
+
+                    <h2>
+                        One-dimensional layout
+                    </h2>
+
+                    <p>
+                        This section uses Flexbox to arrange and align
+                        elements along a row.
+                    </p>
+
+                </div>
+
+
+                <div class="flex-layout">
+
+                    <div class="flex-card featured">
+
+                        <span>01</span>
+
+                        <h3>
+                            Flexible layout
+                        </h3>
+
+                        <p>
+                            Flexbox makes it easy to align elements,
+                            distribute available space, and create
+                            responsive rows.
+                        </p>
+
+                    </div>
+
+
+                    <div class="flex-card">
+
+                        <span>02</span>
+
+                        <h3>
+                            Easy alignment
+                        </h3>
+
+                        <p>
+                            Items can be centered, spaced, or aligned
+                            without complicated positioning.
+                        </p>
+
+                    </div>
+
+
+                    <div class="flex-card">
+
+                        <span>03</span>
+
+                        <h3>
+                            Responsive
+                        </h3>
+
+                        <p>
+                            Flex items can wrap naturally when the
+                            available screen width becomes smaller.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GRID -->
+
+        <section id="grid" class="section dark">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="label">
+                        02 — CSS GRID
+                    </p>
+
+                    <h2>
+                        Two-dimensional layout
+                    </h2>
+
+                    <p>
+                        This section uses CSS Grid to create a structured
+                        multi-column layout.
+                    </p>
+
+                </div>
+
+
+                <div class="grid-layout">
+
+                    <div class="grid-card large">
+                        <span>01</span>
+                        <h3>Large Area</h3>
+                        <p>
+                            Grid allows elements to span multiple rows
+                            and columns.
+                        </p>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <span>02</span>
+                        <h3>Card</h3>
+                        <p>
+                            Independent grid item.
+                        </p>
+                    </div>
+
+
+                    <div class="grid-card">
+                        <span>03</span>
+                        <h3>Card</h3>
+                        <p>
+                            Another responsive grid item.
+                        </p>
+                    </div>
+
+
+                    <div class="grid-card wide">
+                        <span>04</span>
+                        <h3>Wide Area</h3>
+                        <p>
+                            This element demonstrates how Grid items
+                            can span multiple columns.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DASHBOARD -->
+
+        <section id="dashboard" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="label">
+                        03 — PRACTICAL EXAMPLE
+                    </p>
+
+                    <h2>
+                        Responsive dashboard layout
+                    </h2>
+
+                </div>
+
+
+                <div class="dashboard">
+
+                    <aside class="sidebar">
+
+                        <h3>
+                            Dashboard
+                        </h3>
+
+                        <a href="#">
+                            Overview
+                        </a>
+
+                        <a href="#">
+                            Analytics
+                        </a>
+
+                        <a href="#">
+                            Projects
+                        </a>
+
+                        <a href="#">
+                            Settings
+                        </a>
+
+                    </aside>
+
+
+                    <div class="dashboard-content">
+
+                        <div class="stats">
+
+                            <div class="stat">
+                                <span>Projects</span>
+                                <strong>12</strong>
+                            </div>
+
+                            <div class="stat">
+                                <span>Tasks</span>
+                                <strong>48</strong>
+                            </div>
+
+                            <div class="stat">
+                                <span>Completed</span>
+                                <strong>36</strong>
+                            </div>
+
+                            <div class="stat">
+                                <span>Progress</span>
+                                <strong>75%</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="dashboard-main">
+
+                            <div class="chart-card">
+
+                                <span class="label">
+                                    ANALYTICS
+                                </span>
+
+                                <h3>
+                                    Weekly activity
+                                </h3>
+
+                                <div class="bars">
+
+                                    <span style="height: 35%;"></span>
+                                    <span style="height: 55%;"></span>
+                                    <span style="height: 45%;"></span>
+                                    <span style="height: 75%;"></span>
+                                    <span style="height: 60%;"></span>
+                                    <span style="height: 90%;"></span>
+                                    <span style="height: 70%;"></span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="activity-card">
+
+                                <span class="label">
+                                    RECENT ACTIVITY
+                                </span>
+
+                                <div class="activity">
+                                    <strong>Project updated</strong>
+                                    <small>2 hours ago</small>
+                                </div>
+
+                                <div class="activity">
+                                    <strong>Task completed</strong>
+                                    <small>5 hours ago</small>
+                                </div>
+
+                                <div class="activity">
+                                    <strong>New project added</strong>
+                                    <small>Yesterday</small>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                CSS Flexbox & Grid Practice
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
